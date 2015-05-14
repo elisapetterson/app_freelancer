@@ -1,0 +1,44 @@
+body {
+	background-color: #2d637f !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.logo {
+	color: #fff;
+	font-weight: 100;
+	font-size: 80px;
+}
+
+.form-signin input {
+  margin-bottom: 10px;
+ }
+
+ .btn-primary {
+ 	background-color: #f95161 !important;
+ 	border: #f95161 !important;
+ 	border-radius: 1px !important;
+ 	font-weight: 300 !important;
+ }
+
+.form-control {
+	margin-bottom: 10px;
+	height: 45px !important;
+	background-color: transparent !important;
+	border-radius: 1px !important;
+	border: 1px solid #fff !important;	
+	color: #fff!important;
+}
+
+.login-instructions-left {
+	color: #fff;
+	font-weight: 300;
+	font-size: 12px;
+	text-align: left;
+}
+
+.login-instructions-right {
+	color: #fff;
+	font-weight: 300;
+	font-size: 12px;
+	text-align: right;
+}
