@@ -4,15 +4,13 @@ html, body {
 
 body {
 	
-	font-family: 'Roboto', sans-serif !important;		
+	font-family: 'Roboto', sans-serif;		
 	background: -webkit-linear-gradient(45deg, #66cdcc, #336799);
 }
 
 .logo {
-	color: #fff;
-	font-weight: 100;
-	font-size: 80px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;	
+	
 }
 
 .form-signin input {
@@ -20,24 +18,24 @@ body {
  }
 
  .btn-primary {
- 	background-color: #fff !important;
- 	border: #fff !important;
- 	border-radius: 1px !important;
- 	font-weight: 300 !important;
- 	color: #336799 !important;
+ 	background-color: #fff;
+ 	border: #fff;
+ 	border-radius: 1px;
+ 	font-weight: 300;
+ 	color: #336799
  }
 
 .form-control {
 	margin-bottom: 10px;
-	height: 45px !important;
-	background-color: transparent !important;
-	border-radius: 1px !important;
-	border: 1px solid #fff !important;	
-	color: #fff!important;
+	height: 45px;
+	background-color: transparent;
+	border-radius: 1px;
+	border: 1px solid #fff;	
+	color: #fff;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #fff!important;
+  color: #E9E3DE;
   font-weight: 300;
 }
 
