@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Login</title>
+    <title>Criar conta</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
@@ -17,33 +17,24 @@
       
       <div class="container text-center" style="position: relative; top: 10%;">
 
-        <!-- logo, form e botao-->
+        <!-- logo e botao-->
         <div class="row"> 
 
-          <div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1">     
-            <img src="img/octoplus.png" alt="Logo Octoplus" width="250px" style="padding-bottom:10px">
+          <div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1">    
+            <a href="login.html"><img src="img/octoplus.png" alt="Logo Octoplus" width="250px" style="padding-bottom:10px"></a>
             <form class="form-signin"> 
               <label for="inputEmail" class="sr-only">Email</label>
               <input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="">
               <label for="inputPassword" class="sr-only">Senha</label>
               <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
-              <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+              <label for="inputPassword" class="sr-only">Confirmar Senha</label>
+              <input type="password" id="inputPassword" class="form-control" placeholder="Confirmar senha" required="">
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Criar conta</button>
             </form>
           </div>
-
-        </div>
-
-      <!-- instrucoes -->
-        <div class="row">    
-
-          <div class="col-md-2 col-md-offset-4 col-xs-5 col-xs-offset-1">
-            <a href="forgot.html"><h4 align="left">Esqueceu sua senha</h4></a>
+          <div class="row col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1 ">
+             <h3 class="atention">Senhas não coincidem.</h3>    
           </div>
-          <div class="col-md-2 col-xs-5">
-             <a href="new.html"><h4 align="right">Não tem uma conta?</h4></a>
-          </div>
-
-        </div>
 
       </div>
 
