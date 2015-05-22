@@ -2,22 +2,12 @@ html, body {
 	height: 100%;
 }
 
-body {
-	
+body {	
 	font-family: 'Roboto', sans-serif;		
 	background: -webkit-linear-gradient(45deg, #66cdcc, #336799);
 }
 
-.logo {
-	padding-bottom: 10px;	
-	
-}
-
-.form-signin input {
-  margin-bottom: 10px;
- }
-
- .btn-primary {
+.btn-primary {
  	background-color: #fff;
  	border: #fff;
  	border-radius: 1px;
@@ -39,29 +29,17 @@ body {
   font-weight: 300;
 }
 
-.login-instructions-left {
-	color: #fff;
-	font-weight: 300;
-	font-size: 12px;
-	text-align: left;
-}
-
-.login-instructions-right {
-	color: #fff;
-	font-weight: 300;
-	font-size: 12px;
-	text-align: right;
-}
-
-.login-instructions-center {
+h3 {
 	color: #fff;
 	font-weight: 300;
 	font-size: 16px;
 	text-align: center;
 	padding-bottom: 10px;
 }
-.sm {
-	font-size: 12px;
-	padding-top: 10px;
 
+h4 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 12px;
 }
+
